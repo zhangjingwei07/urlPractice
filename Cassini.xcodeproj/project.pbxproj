@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A24180B120F89A1C00C26480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24180B020F89A1C00C26480 /* AppDelegate.swift */; };
-		A24180B320F89A1C00C26480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24180B220F89A1C00C26480 /* ViewController.swift */; };
 		A24180B620F89A1C00C26480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24180B420F89A1C00C26480 /* Main.storyboard */; };
 		A24180B820F89A1E00C26480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24180B720F89A1E00C26480 /* Assets.xcassets */; };
 		A24180BB20F89A1E00C26480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24180B920F89A1E00C26480 /* LaunchScreen.storyboard */; };
+		A24180C520F89ACD00C26480 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24180C420F89ACD00C26480 /* ImageViewController.swift */; };
+		A24180C720F8A1D600C26480 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24180C620F8A1D600C26480 /* DemoURL.swift */; };
+		A24A73AA20FC419B0084F857 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24A73A920FC419B0084F857 /* CassiniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A24180AD20F89A1C00C26480 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24180B020F89A1C00C26480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A24180B220F89A1C00C26480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A24180B520F89A1C00C26480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A24180B720F89A1E00C26480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A24180BA20F89A1E00C26480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A24180BC20F89A1E00C26480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24180C420F89ACD00C26480 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		A24180C620F8A1D600C26480 /* DemoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+		A24A73A920FC419B0084F857 /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		A24180AF20F89A1C00C26480 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				A24180B020F89A1C00C26480 /* AppDelegate.swift */,
-				A24180B220F89A1C00C26480 /* ViewController.swift */,
+				A24180C320F89A4F00C26480 /* Supporting Files */,
 				A24180B420F89A1C00C26480 /* Main.storyboard */,
-				A24180B720F89A1E00C26480 /* Assets.xcassets */,
-				A24180B920F89A1E00C26480 /* LaunchScreen.storyboard */,
+				A24180C420F89ACD00C26480 /* ImageViewController.swift */,
+				A24180C620F8A1D600C26480 /* DemoURL.swift */,
 				A24180BC20F89A1E00C26480 /* Info.plist */,
+				A24A73A920FC419B0084F857 /* CassiniViewController.swift */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		A24180C320F89A4F00C26480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A24180B020F89A1C00C26480 /* AppDelegate.swift */,
+				A24180B720F89A1E00C26480 /* Assets.xcassets */,
+				A24180B920F89A1E00C26480 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A24180B320F89A1C00C26480 /* ViewController.swift in Sources */,
+				A24180C520F89ACD00C26480 /* ImageViewController.swift in Sources */,
 				A24180B120F89A1C00C26480 /* AppDelegate.swift in Sources */,
+				A24180C720F8A1D600C26480 /* DemoURL.swift in Sources */,
+				A24A73AA20FC419B0084F857 /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
